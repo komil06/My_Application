@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fourFragment.MainActivity">
+    tools:context=".fourFragment.MainActivity"
+    android:id="@+id/main">
 
 
     <androidx.fragment.app.FragmentContainerView
@@ -15,6 +16,6 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="1dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
